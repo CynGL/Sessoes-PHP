@@ -11,10 +11,10 @@
 	$_SESSION ['senha'] = $_POST['senha'];
 	
 	 ?>
-	}
+	
 </head>
 <body>
-	<b>Funcionário: </b> <?php echo $_SESSION ['nome'] ?>, logado com sucesso. <br/>
+	<b>Funcionário: </b> <?php echo $_SESSION ['nome'] ?> logado com sucesso. <br/>
 	<b>Data de conexão: </b> <?php echo date("d/m/Y")?><br/>
 	<b>Hora de conexão: </b> <?php echo date("H:i:s")?><br/>
 
